@@ -16,7 +16,8 @@ class School
   
    def grade(number) 
      roster[number]
-  end 
+  end
+  
   def sort
     new_hash = {}
     roster.keys.sort.each do |number|
