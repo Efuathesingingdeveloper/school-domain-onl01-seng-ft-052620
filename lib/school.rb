@@ -14,7 +14,7 @@ class School
   end 
   def 
     self.roster[grade] ||=[]
-    self.roster; << name 
+    self.roster[grade] << name 
   end 
    
    def grade(number) 
