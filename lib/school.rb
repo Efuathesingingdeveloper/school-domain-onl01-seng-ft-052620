@@ -13,7 +13,7 @@ class School
     @roster[grade] << name 
   end 
   def 
-    self.roster[grade] ||=[ ]
+    self.roster[grade] ||=[]
     self.roster; << name 
   end 
    
